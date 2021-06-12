@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet"/>
 </head>
 <body>
+
     <!--NavBar-->
     <header>
         <nav class="navbar">
@@ -22,19 +23,24 @@
         </nav>
     </header>
     <main class="container">
+
         <!--Hero Section-->
         <section class="hero__container">
             <div class="hero__image__container">
-                <img class="hero_image" alt="hero images" src="./images/hero.jpg"/>
+                <img class="hero__image" alt="hero images" src="./images/hero.jpg"/>
             </div>
             <div class="hero__description">
-                <h1 class="hero__text">Order food from favourite restaurants near you.</h1>
+                <h1 class="hero__text">
+                  Order food from favourite restaurants near you.
+                </h1>
                 <button class="button__primary">Order Now</button>
             </div>
         </section>
+
         <!--Explore Menu-->
-        <section class="explore__menu">
+        <section class="explore__menu__container">
             <h1 class="explore__menu__text">Explore Our Menu</h1>
+            <div class="explore__menu__gradient__bg"></div>
             <div class="explore__menu__lists">
                 <!--burger-->
                 <div class="food__menu__card">
@@ -48,7 +54,7 @@
                     </div>
                 </div>
                 <!--pizza-->
-                <div class="food__menu__card">
+                <div class="food__menu__card" id="pizza__card">
                     <img src="./images/pizza.jpg" alt="pizza" class="food__image"/>
                     <div class="food__menu__card__description">
                         <h3 class="food__title">Pizza</h3>
@@ -73,6 +79,27 @@
             <div class="">
                 <button class="">View More</button>
             </div>
+        </section>
+
+        <!--Restaurants-->
+        <section class="restaurants__container">
+          <h1 class="restaurants__description">Order From 100's of restaurants</h1>
+          <div class="restaurants__flex">
+            <div class="restaurants__flex__row__one">
+              <div class="restaurants__1">
+                <img class="restaurants__1__image" src="./images/restaurant1.jpg" />
+              </div>
+              <div class="restaurants__2">
+                <img class="restaurants__2__image" src="./images/restaurant2.jpg" />
+              </div>
+              <div class="restaurants__3">
+                <img class="restaurants__3__image" src="./images/restaurant3.jpg" />
+              </div>
+              <div class="restaurants__4">
+                <img class="restaurants__4__image" src="./images/restaurant4.jpg" />
+              </div>
+            </div>
+          </div>
         </section>
     </main>
 </body>
